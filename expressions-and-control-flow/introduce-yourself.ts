@@ -11,6 +11,8 @@
 //  31
 //  1.87
 
-console.log ('My name is Leo');
-console.log ('32');
-console.log ('1.94');
+console.log('My name is Leo');
+console.log('32');
+console.log('1.94');
+
+export { }

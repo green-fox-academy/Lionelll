@@ -11,3 +11,5 @@ let roundedBMI = Math.round(BMI);
 
 console.log('The body mass indedx is ' + BMI);
 console.log('The body mass index is ' + roundedBMI);
+
+export { }

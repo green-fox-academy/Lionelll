@@ -14,3 +14,5 @@ b = c - b;
 
 console.log(a);
 console.log(b);
+
+export { }

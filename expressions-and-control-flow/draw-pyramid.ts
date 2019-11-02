@@ -27,4 +27,5 @@ for (lineCount; lineCount < 4; lineCount++) {
     }
 }
 console.log(space + star);
+
 export { }

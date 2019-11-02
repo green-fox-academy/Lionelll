@@ -82,3 +82,5 @@ if (j % 3 == 0 || j % 5 == 0) {
 } else {
     console.log(false);
 }
+
+export { }

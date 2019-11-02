@@ -16,4 +16,4 @@ let cuboidVolume = l * w * h;
 console.log('Surface area: ' + cuboidSurface);
 console.log('Volume: ' + cuboidVolume);
 
-export{}
+export { }

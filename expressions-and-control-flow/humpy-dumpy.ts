@@ -13,3 +13,5 @@ console.log('Humpy Dumpy sat on a wall,');
 console.log('Humpy Dumpy had a great fall.');
 console.log('All the king\'s horses and all the king\'s men');
 console.log('Couldn\t put Humpy together again');
+
+export { }

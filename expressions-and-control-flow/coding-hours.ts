@@ -28,3 +28,5 @@ console.log(semesterCodingHours + ' hours spent with coding in a semester by an 
 
 console.log(percentageInSemester + '% is coding hours in a semester');
 
+export { }
+
