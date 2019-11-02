@@ -1,7 +1,5 @@
 'use strict';
 
-let lineCount: number = 4;
-
 // Write a program that draws a
 // pyramid like this:
 //
@@ -12,8 +10,9 @@ let lineCount: number = 4;
 //
 // The pyramid should have as many lines as lineCount is
 
-let star = '';
-let space = '';
+let lineCount: number = 4;
+let star: string = '';
+let space: string = '';
 
 for (lineCount; lineCount < 4; lineCount++) {
     //lineCount = lineCount + 1;

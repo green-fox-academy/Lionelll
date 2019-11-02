@@ -1,7 +1,5 @@
 'use strict';
 
-let number: number = 15;
-
 // Create a program that
 // prints the multiplication table with number
 //
