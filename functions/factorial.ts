@@ -3,15 +3,15 @@
 //   Create a function called `factorio`
 //   that returns it's input's factorial
 
-let num: number = 3;
+let num: number = 6;
 
 function factorio(a: number): number {
 
-    let factor: number = 0;
+    let factor: number = 1;
 
-    for (let i = 1; i < a + 1; i++) {
+    for (let i = a; i > 0; i--) {
 
-        factor = a * i;
+        factor = factor * i;
 
     }
     return factor;

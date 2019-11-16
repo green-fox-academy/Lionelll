@@ -4,13 +4,12 @@
 //   which logs to the console the input parameters
 //   (can have multiple number of arguments)
 
-let num: number []= [1, 3, 6, 9];
+function printParams(...rest: number[]): number {
 
-function printParams(...rest: number): number {
-
-
+    console.log(...rest);
 
     return;
 }
-console.log(printParams());
+
+printParams(1, 2, 5, 7, 8, 9);
 export { }
