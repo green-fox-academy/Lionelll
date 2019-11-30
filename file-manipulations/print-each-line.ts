@@ -5,7 +5,19 @@
 
 'use strict';
 
+try {
 
+    let fs = require('fs');
 
+    let fileContent: string = fs.readFileSync('/files/my-fileContent.txt', 'utf8');
 
-export {}
+    throw new Error('Unable to read file: my-file.txt');
+
+    console.log(fileContent);
+
+} catch (err) {
+
+    console.log(err.message);
+
+}
+export { }
