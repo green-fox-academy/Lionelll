@@ -14,6 +14,7 @@ let wildPokemon: Pokemon = new Pokemon('Oddish', 'leaf', 'water');
 
 // Which pokemon should Ash use?
 
+
 console.log('I choose you, ');
 
 function initializePokemon(): Pokemon[] {
@@ -25,3 +26,7 @@ function initializePokemon(): Pokemon[] {
         new Pokemon('Kingler', 'water', 'fire')
     ];
 }
+
+pokemonOfAsh.forEach( => {
+    
+});
