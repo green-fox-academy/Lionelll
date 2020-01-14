@@ -9,6 +9,6 @@ function powerN(base: number, n: number): number {
         return base * powerN(base, n-1);
     }
 }
-console.log(powerN(3, 2));
+console.log(powerN(2, 3));
 
 export { }
